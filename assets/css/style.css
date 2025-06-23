@@ -256,3 +256,12 @@ aside div {
   display: inline-block;
   width: 33%;
 }
+@media print {
+  header,
+  iframe,
+  section,
+  aside,
+  footer {
+    display: none;
+  }
+}
