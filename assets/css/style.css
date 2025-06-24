@@ -253,8 +253,12 @@ section {
   border-radius: 10px;
 }
 aside div {
+  margin-left: -1rem;
   display: inline-block;
-  width: 33%;
+  width: 33.3%;
+}
+aside :nth-child(2) {
+  margin-left: 0.8rem;
 }
 @media print {
   header,
